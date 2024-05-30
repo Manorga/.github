@@ -5,7 +5,7 @@ on:
         - main
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: azure
     steps:            
     - name: "Login to Azure"
       uses: Azure/login@v2
